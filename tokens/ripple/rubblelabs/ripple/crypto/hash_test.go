@@ -1,6 +1,7 @@
 package crypto
 
 import (
+	testing2 "github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/testing"
 	"testing"
 
 	. "gopkg.in/check.v1"
@@ -25,7 +26,7 @@ var testAccounts = map[string]struct {
 	"root":     {"rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh", "masterpassphrase"},
 }
 
-var accountTests = TestSlice{
+var accountTests = testing2.TestSlice{
 	{accountCheck("0").Value().String(), Equals, "0", "Parse 0"},
 	{accountCheck("0").String(), Equals, ACCOUNT_ZERO, "Parse 0 export"},
 	{accountCheck("1").Value().String(), Equals, "1", "Parse 1"},
@@ -34,7 +35,7 @@ var accountTests = TestSlice{
 	{accountCheck(ACCOUNT_ONE).String(), Equals, ACCOUNT_ONE, "Parse rrrrrrrrrrrrrrrrrrrrBZbvji export"},
 	{accountCheck(testAccounts["mtgox"].Account).String(), Equals, testAccounts["mtgox"].Account, "Parse mtgox export"},
 	{accountCheck(ACCOUNT_ZERO), Not(Equals), nil, "IsValid rrrrrrrrrrrrrrrrrrrrrhoLvTp"},
-	{ErrorCheck(NewRippleHash("rrrrrrrrrrrrrrrrrrrrrhoLvT")), ErrorMatches, "Bad Base58 checksum:.*", "IsValid rrrrrrrrrrrrrrrrrrrrrhoLvT"},
+	{testing2.ErrorCheck(NewRippleHash("rrrrrrrrrrrrrrrrrrrrrhoLvT")), ErrorMatches, "Bad Base58 checksum:.*", "IsValid rrrrrrrrrrrrrrrrrrrrrhoLvT"},
 }
 
 func accountCheck(v interface{}) Hash {

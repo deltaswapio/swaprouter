@@ -1,4 +1,4 @@
-# CrossChain-Router API
+# Swaprouter API
 
 [JSON RPC API Reference](#json-rpc-api-reference)
 

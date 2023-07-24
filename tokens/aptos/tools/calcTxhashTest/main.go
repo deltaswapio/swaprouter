@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/aptos"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/tokens/aptos"
 )
 
 func main() {

@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/common/hexutil"
-	"github.com/anyswap/CrossChain-Router/v3/common/math"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common/hexutil"
+	"github.com/deltaswapio/swaprouter/v3/common/math"
 )
 
 var (

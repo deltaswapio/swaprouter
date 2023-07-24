@@ -3,9 +3,9 @@ package worker
 import (
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/mongodb"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/mongodb"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 // MatchTx struct

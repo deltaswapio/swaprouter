@@ -3,7 +3,7 @@ package worker
 import (
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/router/bridge"
+	"github.com/deltaswapio/swaprouter/v3/router/bridge"
 )
 
 const interval = 10 * time.Millisecond

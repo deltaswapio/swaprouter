@@ -5,7 +5,7 @@ package stellar
 import (
 	"testing"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 func PrepareTestBridge() *Bridge {

@@ -5,8 +5,6 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
 	cosmosClient "github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codecTypes "github.com/cosmos/cosmos-sdk/codec/types"
@@ -16,6 +14,8 @@ import (
 	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 	authTx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 var (

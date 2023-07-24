@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/base"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/cosmos/grpc"
 	cosmosClient "github.com/cosmos/cosmos-sdk/client"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens/base"
+	"github.com/deltaswapio/swaprouter/v3/tokens/cosmos/grpc"
 )
 
 var (

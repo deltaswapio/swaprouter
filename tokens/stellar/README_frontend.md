@@ -36,7 +36,7 @@ https://horizon-testnet.stellar.org/assets?asset_code=Ooxx&asset_issuer=GCHH22AX
 
 ## build tx memo
 
-see https://github.com/anyswap/CrossChain-Router/blob/feature/stellar/tokens/stellar/README.md#router-mechanism
+see https://github.com/deltaswapio/swaprouter/blob/feature/stellar/tokens/stellar/README.md#router-mechanism
 
 
 

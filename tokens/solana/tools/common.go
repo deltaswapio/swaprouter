@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/mpc"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/types"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/mpc"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/types"
 )
 
 type Signer struct {

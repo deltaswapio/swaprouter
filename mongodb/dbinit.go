@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/cmd/utils"
-	"github.com/anyswap/CrossChain-Router/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/cmd/utils"
+	"github.com/deltaswapio/swaprouter/v3/log"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

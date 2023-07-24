@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/base"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens/base"
 )
 
 var (

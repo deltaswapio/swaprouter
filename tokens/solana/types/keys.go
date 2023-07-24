@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"filippo.io/edwards25519"
-	"github.com/anyswap/CrossChain-Router/v3/tools"
+	"github.com/deltaswapio/swaprouter/v3/tools"
 	"github.com/mr-tron/base58"
 )
 

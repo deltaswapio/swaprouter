@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/programs/system"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/types"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/programs/system"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/types"
 	bin "github.com/streamingfast/binary"
 )
 

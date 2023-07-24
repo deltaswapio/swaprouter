@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/data"
+	"github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/data"
 )
 
 var counter uint64

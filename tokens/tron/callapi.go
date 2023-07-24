@@ -14,14 +14,14 @@ import (
 
 	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/common/hexutil"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/rpc/client"
-	ethclient "github.com/anyswap/CrossChain-Router/v3/rpc/client"
-	"github.com/anyswap/CrossChain-Router/v3/types"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common/hexutil"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/rpc/client"
+	ethclient "github.com/deltaswapio/swaprouter/v3/rpc/client"
+	"github.com/deltaswapio/swaprouter/v3/types"
 	"google.golang.org/protobuf/proto"
 )
 

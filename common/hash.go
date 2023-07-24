@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/anyswap/CrossChain-Router/v3/common/hexutil"
+	"github.com/deltaswapio/swaprouter/v3/common/hexutil"
 )
 
 // Lengths of hashes in bytes.

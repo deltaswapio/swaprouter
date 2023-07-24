@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common"
 )
 
 // Hash returns the transaction hash

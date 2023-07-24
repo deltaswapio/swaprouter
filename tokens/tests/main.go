@@ -5,20 +5,20 @@ import (
 	"os"
 	"sync"
 
-	"github.com/anyswap/CrossChain-Router/v3/cmd/utils"
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	rpcserver "github.com/anyswap/CrossChain-Router/v3/rpc/server"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/cmd/utils"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	rpcserver "github.com/deltaswapio/swaprouter/v3/rpc/server"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/tests/btc"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/tests/config"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/tests/eth"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/tests/flow"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/tests/stellar"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/tests/template"
+	"github.com/deltaswapio/swaprouter/v3/tokens/tests/btc"
+	"github.com/deltaswapio/swaprouter/v3/tokens/tests/config"
+	"github.com/deltaswapio/swaprouter/v3/tokens/tests/eth"
+	"github.com/deltaswapio/swaprouter/v3/tokens/tests/flow"
+	"github.com/deltaswapio/swaprouter/v3/tokens/tests/stellar"
+	"github.com/deltaswapio/swaprouter/v3/tokens/tests/template"
 
 	"github.com/urfave/cli/v2"
 )
@@ -38,7 +38,7 @@ func initApp() {
 	// Initialize the CLI app and start action
 	app.Action = swaprouter
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2020-2022 The CrossChain-Router Authors"
+	app.Copyright = "Copyright 2020-2022 The Swaprouter Authors"
 	app.Flags = []cli.Flag{
 		utils.ConfigFileFlag,
 		utils.LogFileFlag,

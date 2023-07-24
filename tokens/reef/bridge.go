@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/eth"
 	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens/eth"
 )
 
 var (

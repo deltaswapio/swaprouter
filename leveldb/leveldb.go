@@ -1,5 +1,5 @@
 // Package leveldb is a wrapper of goleveldb.
-//nolint
+// nolint
 package leveldb
 
 import (
@@ -11,7 +11,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/log"
 )
 
 const (

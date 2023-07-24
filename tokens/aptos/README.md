@@ -1,10 +1,10 @@
 # aptos router
 
 ## github
-https://github.com/anyswap/CrossChain-Router/tree/feature/aptos
+https://github.com/deltaswapio/swaprouter/tree/feature/aptos
 
 ## router contract
-https://github.com/anyswap/router-aptos-contract/tree/use-table
+https://github.com/deltaswapio/router-aptos-contract/tree/use-table
 
 
 ## router mechanism
@@ -79,7 +79,7 @@ http: TBA
 
 ### scan Tx
 See demo
-https://github.com/anyswap/CrossChain-Router/blob/feature/aptos/tokens/aptos/tools/eventlog/main.go
+https://github.com/deltaswapio/swaprouter/blob/feature/aptos/tokens/aptos/tools/eventlog/main.go
 
 ### js sdk
 web3: https://aptos.dev/sdks/typescript-sdk

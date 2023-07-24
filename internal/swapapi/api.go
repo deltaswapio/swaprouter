@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/mongodb"
-	"github.com/anyswap/CrossChain-Router/v3/mpc"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/worker"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/mongodb"
+	"github.com/deltaswapio/swaprouter/v3/mpc"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/worker"
 	rpcjson "github.com/gorilla/rpc/v2/json2"
 )
 
@@ -106,6 +106,7 @@ func ReportOracleInfo(oracle string, info *OracleInfo) error {
 
 // RegisterRouterSwap register router swap
 // if logIndex is 0 then check all logs, otherwise only check the specified log
+//
 //nolint:funlen,gocyclo // allow long method
 func RegisterRouterSwap(fromChainID, txid, logIndexStr string) (*MapIntResult, error) {
 	swapType := tokens.GetRouterSwapType()

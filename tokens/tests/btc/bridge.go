@@ -6,8 +6,8 @@
 package btc
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/btc"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens/btc"
 )
 
 var (

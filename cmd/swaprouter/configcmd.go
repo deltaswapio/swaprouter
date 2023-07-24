@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/anyswap/CrossChain-Router/v3/cmd/utils"
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/cmd/utils"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/router"
 	"github.com/urfave/cli/v2"
 )
 

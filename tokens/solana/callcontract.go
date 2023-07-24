@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/types"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/types"
 )
 
 var (

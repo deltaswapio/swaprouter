@@ -10,7 +10,7 @@ go run tokens/aptos/tools/publicKeyToAddress/main.go -h
 get some native token `APT` to mpc address
 ### b. contract deploy
 deploy `Pool` and `Router` 
-1. git clone https://github.com/anyswap/router-aptos-contract/tree/use-table
+1. git clone https://github.com/deltaswapio/router-aptos-contract/tree/use-table
 2. copy mpc address ,  replace `Multichain`'s address at `router-aptos-contract/blob/use-table/router/Move.toml`
 3. cd  router-aptos-contract and run `aptos move test --package-dir router` to test code
 4. run `aptos move compile --save-metadata --package-dir router` to build code 
@@ -105,7 +105,7 @@ go run tokens/aptos/tools/withdraw/main.go -h
 ```
 
 
-## 3. Setup CrossChain-Router Enviroment
+## 3. Setup Swaprouter Enviroment
 ### a. needs node env
 ```
 node >= v14.0.0

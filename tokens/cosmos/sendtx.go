@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 // SendTransaction send signed tx

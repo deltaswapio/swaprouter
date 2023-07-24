@@ -8,16 +8,16 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/mpc"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	rcrypto "github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/crypto"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/data"
-	"github.com/anyswap/CrossChain-Router/v3/tools/crypto"
 	"github.com/btcsuite/btcd/btcec"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/mpc"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	rcrypto "github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/crypto"
+	"github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/data"
+	"github.com/deltaswapio/swaprouter/v3/tools/crypto"
 )
 
 func (b *Bridge) verifyTransactionWithArgs(tx data.Transaction, args *tokens.BuildTxArgs) error {

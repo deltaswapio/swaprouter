@@ -1,7 +1,7 @@
 package websockets
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/data"
+	"github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/data"
 )
 
 // https://ripple.com/build/rippled-apis/#path-find

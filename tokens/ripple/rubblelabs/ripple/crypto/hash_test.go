@@ -3,7 +3,6 @@ package crypto
 import (
 	"testing"
 
-	. "github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/testing"
 	. "gopkg.in/check.v1"
 )
 

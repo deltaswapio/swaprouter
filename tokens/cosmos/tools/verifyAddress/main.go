@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/cosmos"
+	"github.com/deltaswapio/swaprouter/v3/tokens/cosmos"
 )
 
 var (

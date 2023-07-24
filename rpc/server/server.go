@@ -16,11 +16,11 @@ import (
 	"github.com/gorilla/rpc/v2"
 	rpcjson "github.com/gorilla/rpc/v2/json2"
 
-	"github.com/anyswap/CrossChain-Router/v3/cmd/utils"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/rpc/restapi"
-	"github.com/anyswap/CrossChain-Router/v3/rpc/rpcapi"
+	"github.com/deltaswapio/swaprouter/v3/cmd/utils"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/rpc/restapi"
+	"github.com/deltaswapio/swaprouter/v3/rpc/rpcapi"
 )
 
 // StartAPIServer start api server

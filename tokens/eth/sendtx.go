@@ -3,9 +3,9 @@ package eth
 import (
 	"errors"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/types"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/types"
 )
 
 func (b *Bridge) SendZKSyncTransaction(signedTx interface{}) (txHash string, err error) {

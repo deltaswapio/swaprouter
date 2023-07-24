@@ -1,6 +1,6 @@
 # Description
 
-This package is used to simplify the developing process to support `CrossChain-Router` project.
+This package is used to simplify the developing process to support `Swaprouter` project.
 
 It's designed to get rid of business related processes: MPC and Database.
 

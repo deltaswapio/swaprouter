@@ -3,7 +3,7 @@ package btc
 import (
 	"sort"
 
-	"github.com/anyswap/CrossChain-Router/v3/rpc/client"
+	"github.com/deltaswapio/swaprouter/v3/rpc/client"
 )
 
 // PostTransaction call post to /tx

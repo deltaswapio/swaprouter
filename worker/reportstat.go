@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/mpc"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/rpc/client"
+	"github.com/deltaswapio/swaprouter/v3/mpc"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/rpc/client"
 )
 
 var (

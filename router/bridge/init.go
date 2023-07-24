@@ -7,12 +7,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/mongodb"
-	"github.com/anyswap/CrossChain-Router/v3/mpc"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/mongodb"
+	"github.com/deltaswapio/swaprouter/v3/mpc"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 var (
@@ -35,6 +35,7 @@ func setRouterInfoLoaded(chainID, routerContract string) {
 }
 
 // InitRouterBridges init router bridges
+//
 //nolint:funlen,gocyclo // ok
 func InitRouterBridges(isServer bool) {
 	log.Info("start init router bridges", "isServer", isServer)
@@ -403,6 +404,7 @@ func InitChainConfig(b tokens.IBridge, chainID *big.Int) {
 }
 
 // InitTokenConfig impl
+//
 //nolint:funlen,gocyclo // allow long init token config method
 func InitTokenConfig(b tokens.IBridge, tokenID string, chainID *big.Int) {
 	isReload := router.IsReloading

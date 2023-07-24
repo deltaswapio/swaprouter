@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/tools/rlp"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/tools/rlp"
 )
 
 var (

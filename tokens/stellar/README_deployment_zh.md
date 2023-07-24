@@ -1,5 +1,5 @@
 # router
-合约仓库： https://github.com/anyswap/CrossChain-Router/tree/feature/stellar
+合约仓库： https://github.com/deltaswapio/swaprouter/tree/feature/stellar
 
 # stellar
 > 特别注意：stellar没有合约的概念，不需要部署合约，采用记账的方式替代token部署
@@ -14,16 +14,16 @@ http: https://horizon.stellar.org/
 chain_id:  1000005786702
 
 ## router部署文档 
-https://github.com/anyswap/CrossChain-Router/tree/feature/stellar#readme
+https://github.com/deltaswapio/swaprouter/tree/feature/stellar#readme
 ## mpc部署文档 
-https://github.com/anyswap/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
+https://github.com/deltaswapio/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
 
 
 ***
 特别强调  
 >1)mpc公钥和stellar地址的关系  
 mpc申请ed公钥(65字节16进制编码字符串，非压缩公钥)后，公钥本身经过地址转换就是stellar的地址，触发一笔交易后即激活  
-另外，mpc获取的公钥，通过  https://github.com/anyswap/CrossChain-Router/blob/feature/stellar/tokens/stellar/tools/publicKeyToAddress/main.go  工具可获得stellar address  
+另外，mpc获取的公钥，通过  https://github.com/deltaswapio/swaprouter/blob/feature/stellar/tokens/stellar/tools/publicKeyToAddress/main.go  工具可获得stellar address  
 示例：  
 go run ./tokens/stellar/tools/publicKeyToAddress/main.go -p 0xED146f71db711bc259176f9bcba1756308d2a7af0f1c0b90deece65997a84c8f56
 #output
@@ -127,7 +127,7 @@ https://developers.stellar.org/docs/issuing-assets/how-to-issue-an-asset/
 ## stellar 工具调用方法
 >1)golang
 ```shell
-脚本路径： https://github.com/anyswap/CrossChain-Router/tree/feature/stellar/tokens/stellar/tools
+脚本路径： https://github.com/deltaswapio/swaprouter/tree/feature/stellar/tokens/stellar/tools
 1.1 getChainID
     go run ./tokens/stellar/tools/getStubChainID/main.go -p testnet|mainnet
 1.2 address to publickey

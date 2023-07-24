@@ -13,11 +13,11 @@ Address(base58):
 copy output `PriKey bytes` to $home/.config/solana/id.json
 ### b. router contract deploy
 See
-https://github.com/anyswap/router-solana-contract#install-and-config
+https://github.com/deltaswapio/router-solana-contract#install-and-config
 
 ### c. init router contract
 Use client.js to init router contract
-https://github.com/anyswap/router-solana-contract/blob/main/app/client.js 
+https://github.com/deltaswapio/router-solana-contract/blob/main/app/client.js 
 
 ```
 Usage: client init [options]
@@ -43,7 +43,7 @@ Use tools createRouterOwnerATA
 go run tokens/solana/tools/createRouterOwnerATA/main.go -h
 ```
  
-## 2. Setup CrossChain-Router Enviroment
+## 2. Setup Swaprouter Enviroment
 ### a. setup solana config
 ```
 # auto resign tx if nonce passed, key: chainid  value: 1:on 0:off
@@ -67,7 +67,7 @@ AnyToken issued by multichain :  `contract version` > `0`
 
 ### c. swapout 
 see
-https://github.com/anyswap/router-solana-contract#Tools
+https://github.com/deltaswapio/router-solana-contract#Tools
 
 ```
 node app/client.js -h             

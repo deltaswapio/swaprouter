@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/crypto"
+	"github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/crypto"
 )
 
 const (
@@ -55,6 +55,7 @@ func GetAddress(k crypto.Key, sequence *uint32) string {
 }
 
 // Id returns pubkey bytes from ripple key
+//
 //nolint:golint,stylecheck // ok
 func (k *EcdsaPublic) Id(sequence *uint32) []byte {
 	return crypto.Sha256RipeMD160(k.Public(sequence))

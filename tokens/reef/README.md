@@ -17,11 +17,11 @@ https://docs.reef.io/docs/users/introduction/
 https://github.com/reef-defi/reef-explorer/tree/develop/db/hasura/metadata/databases/reefexplorer/tables
 
 ## Router Github
-https://github.com/anyswap/CrossChain-Router/tree/feature/reef-substrate
+https://github.com/deltaswapio/swaprouter/tree/feature/reef-substrate
 
 ## Router Contract
 Reef support evm contract
-https://github.com/anyswap/anyswap-v1-core
+https://github.com/deltaswapio/anyswap-v1-core
 
 
 ## Account Mechanism

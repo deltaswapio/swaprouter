@@ -1,5 +1,5 @@
 ## flow
-合约仓库： https://github.com/anyswap/flow-contract 
+合约仓库： https://github.com/deltaswapio/flow-contract 
 
 ## sdk
 https://developers.onflow.org/tools/fcl-js
@@ -15,22 +15,22 @@ name/symbol: contractAddr
 ```
 >2)underlying
 ```shell
-code: https://github.com/anyswap/flow-contract/blob/main/contracts/multichain/AnyExampleToken.cdc
+code: https://github.com/deltaswapio/flow-contract/blob/main/contracts/multichain/AnyExampleToken.cdc
 method:  pub fun underlying(): String?
 ```
 >3)native balance
 ```shell
-code: https://github.com/anyswap/flow-contract/blob/main/contracts/core/FungibleToken.cdc
+code: https://github.com/deltaswapio/flow-contract/blob/main/contracts/core/FungibleToken.cdc
 method:  pub fun deposit(from: @Vault)
 ```
 >4)token balance
 ```shell
-code: https://github.com/anyswap/flow-contract/blob/main/contracts/core/FungibleToken.cdc
+code: https://github.com/deltaswapio/flow-contract/blob/main/contracts/core/FungibleToken.cdc
 method: pub fun deposit(from: @Vault)
 ```
 >5)totalSupply
 ```shell
-code: https://github.com/anyswap/flow-contract/blob/main/contracts/core/FungibleToken.cdc
+code: https://github.com/deltaswapio/flow-contract/blob/main/contracts/core/FungibleToken.cdc
 method: pub var totalSupply: UFix64
 ```
 >6)create vault

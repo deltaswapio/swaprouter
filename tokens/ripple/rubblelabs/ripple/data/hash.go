@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/crypto"
+	"github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/crypto"
 )
 
 type KeyType int

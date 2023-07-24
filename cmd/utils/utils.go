@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
 	"github.com/urfave/cli/v2"
 )
 

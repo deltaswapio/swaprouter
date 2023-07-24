@@ -1,8 +1,8 @@
 package iota
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 	iotago "github.com/iotaledger/iota.go/v2"
 )
 

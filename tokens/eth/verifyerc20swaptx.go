@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/eth/abicoder"
-	"github.com/anyswap/CrossChain-Router/v3/types"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens/eth/abicoder"
+	"github.com/deltaswapio/swaprouter/v3/types"
 )
 
 // router contract's log topics
@@ -468,6 +468,7 @@ func (b *Bridge) checkSwapWithPermit(swapInfo *tokens.SwapTxInfo) error {
 // anySwapOut burn anyToken from sender to zero address
 // anySwapOutUnderlying transfer underlying from sender to anyToken
 // anySwapOutNative transfer underlying from router to anyToken
+//
 //nolint:funlen,gocyclo // allow long method
 func (b *Bridge) checkTokenReceived(swapInfo *tokens.SwapTxInfo, receipt *types.RPCTxReceipt) error {
 	erc20SwapInfo := swapInfo.ERC20SwapInfo

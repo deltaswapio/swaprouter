@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/internal/build"
+	"github.com/deltaswapio/swaprouter/v3/internal/build"
 )
 
 var gobin, _ = filepath.Abs(filepath.Join("build", "bin"))

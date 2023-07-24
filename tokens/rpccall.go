@@ -3,8 +3,8 @@ package tokens
 import (
 	"fmt"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/rpc/client"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/rpc/client"
 )
 
 // WrapRPCQueryError wrap rpc error

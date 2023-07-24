@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/anyswap/CrossChain-Router/v3/admin"
-	"github.com/anyswap/CrossChain-Router/v3/cmd/utils"
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/admin"
+	"github.com/deltaswapio/swaprouter/v3/cmd/utils"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
 	"github.com/urfave/cli/v2"
 )
 

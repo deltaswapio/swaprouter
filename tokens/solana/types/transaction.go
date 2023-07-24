@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/log"
 	"github.com/mr-tron/base58"
 	bin "github.com/streamingfast/binary"
 )

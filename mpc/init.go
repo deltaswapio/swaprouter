@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/tools"
-	"github.com/anyswap/CrossChain-Router/v3/tools/keystore"
-	"github.com/anyswap/CrossChain-Router/v3/types"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/tools"
+	"github.com/deltaswapio/swaprouter/v3/tools/keystore"
+	"github.com/deltaswapio/swaprouter/v3/types"
 )
 
 const (

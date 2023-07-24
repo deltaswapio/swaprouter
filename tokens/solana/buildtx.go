@@ -1,13 +1,13 @@
 package solana
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	routerprog "github.com/anyswap/CrossChain-Router/v3/tokens/solana/programs/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/programs/system"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/programs/token"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/types"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	routerprog "github.com/deltaswapio/swaprouter/v3/tokens/solana/programs/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/programs/system"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/programs/token"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/types"
 )
 
 // BuildRawTransaction impl

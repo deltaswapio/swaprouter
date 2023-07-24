@@ -6,9 +6,9 @@
 package eth
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	ethpro "github.com/anyswap/CrossChain-Router/v3/tokens/eth"
-	"github.com/anyswap/CrossChain-Router/v3/types"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	ethpro "github.com/deltaswapio/swaprouter/v3/tokens/eth"
+	"github.com/deltaswapio/swaprouter/v3/types"
 )
 
 var (

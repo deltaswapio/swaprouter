@@ -1,4 +1,4 @@
-module github.com/anyswap/CrossChain-Router/v3
+module github.com/deltaswapio/swaprouter/v3
 
 go 1.18
 

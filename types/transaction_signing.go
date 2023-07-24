@@ -1,5 +1,5 @@
 // Package types - eth types like transaction, receipt and logs
-//nolint
+// nolint
 package types
 
 import (
@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/tools/crypto"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/tools/crypto"
 )
 
 // sign tx errors

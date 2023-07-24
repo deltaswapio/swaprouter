@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/types"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/types"
 	bin "github.com/streamingfast/binary"
 )
 

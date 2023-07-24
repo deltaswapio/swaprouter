@@ -3,7 +3,7 @@ package ripple
 import (
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/data"
+	"github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/data"
 )
 
 // ParsePaths parse paths

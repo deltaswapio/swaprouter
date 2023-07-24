@@ -1,6 +1,6 @@
 package data
 
-import "github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/crypto"
+import "github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/crypto"
 
 func Sign(s Signer, key crypto.Key, sequence *uint32) error {
 	s.InitialiseForSigning()

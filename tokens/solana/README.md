@@ -1,10 +1,10 @@
 # solana router
 
 ## github
-github: https://github.com/anyswap/CrossChain-Router/tree/feature/solana-support
+github: https://github.com/deltaswapio/swaprouter/tree/feature/solana-support
 
 ## router contract
-https://github.com/anyswap/router-solana-contract
+https://github.com/deltaswapio/router-solana-contract
 
 
 ## router mechanism
@@ -205,7 +205,7 @@ chain_id: 245022934
 web3: https://solana-labs.github.io/solana-web3.js/index.html
 call contract: https://www.npmjs.com/package/@project-serum/anchor
 
-after run `anchor build` (@See https://github.com/anyswap/router-solana-contract)
+after run `anchor build` (@See https://github.com/deltaswapio/router-solana-contract)
 copy router-solana-contract/target/idl/router.json to project 
 
 ```
@@ -220,7 +220,7 @@ const idl = JSON.parse(
 let programId = new anchor.web3.PublicKey("9t6JfntGXehxm7qzLZ71BisNNYCMAiRUgoECvZATVpos");
 router_program = new anchor.Program(idl, programId, provider);
 ```
-More Example at https://github.com/anyswap/router-solana-contract/blob/main/app/client.js
+More Example at https://github.com/deltaswapio/router-solana-contract/blob/main/app/client.js
 
 ### scan tx in solana
 

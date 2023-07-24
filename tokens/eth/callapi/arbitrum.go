@@ -1,9 +1,9 @@
 package callapi
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/eth/abicoder"
-	"github.com/anyswap/CrossChain-Router/v3/types"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/tokens/eth/abicoder"
+	"github.com/deltaswapio/swaprouter/v3/types"
 )
 
 // ------------------------ arbitrum override apis -----------------------------

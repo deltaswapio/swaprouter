@@ -1,10 +1,10 @@
 ## router
 
-路由仓库： https://github.com/anyswap/CrossChain-Router/tree/feature/flow
+路由仓库： https://github.com/deltaswapio/swaprouter/tree/feature/flow
 
 ## flow
 
-合约仓库： https://github.com/anyswap/flow-contract
+合约仓库： https://github.com/deltaswapio/flow-contract
 
 常用api文档：https://docs.onflow.org/http-api/
 
@@ -32,11 +32,11 @@ cli工具： https://developers.flow.com/tools/flow-cli
 
 ## router部署文档
 
-https://github.com/anyswap/CrossChain-Router/tree/feature/near#readme
+https://github.com/deltaswapio/swaprouter/tree/feature/near#readme
 
 ## mpc部署文档
 
-https://github.com/anyswap/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
+https://github.com/deltaswapio/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
 
 ## 合约参考(已验证)
 

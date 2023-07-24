@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/common/hexutil"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/rpc/client"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common/hexutil"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/rpc/client"
 )
 
 var blankOrCommaSepRegexp = regexp.MustCompile(`[\s,]+`) // blank or comma separated
@@ -206,6 +206,7 @@ func (c *RouterOracleConfig) CheckConfig() (err error) {
 }
 
 // CheckConfig of router server
+//
 //nolint:funlen,gocyclo // ok
 func (s *RouterServerConfig) CheckConfig() error {
 	if s == nil {
@@ -401,6 +402,7 @@ func (c *OnchainConfig) CheckConfig() error {
 }
 
 // CheckConfig check mpc config
+//
 //nolint:funlen,gocyclo // ok
 func (c *MPCConfig) CheckConfig(isServer bool) (err error) {
 	if c.SignWithPrivateKey {

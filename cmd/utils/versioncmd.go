@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/anyswap/CrossChain-Router/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/params"
 	"github.com/urfave/cli/v2"
 )
 

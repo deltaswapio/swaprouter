@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/internal/swapapi"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/internal/swapapi"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 // RouterSwapAPI rpc api handler

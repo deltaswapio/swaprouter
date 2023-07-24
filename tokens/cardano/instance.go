@@ -1,7 +1,7 @@
 package cardano
 
 import (
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 // BridgeInstance btc bridge instance

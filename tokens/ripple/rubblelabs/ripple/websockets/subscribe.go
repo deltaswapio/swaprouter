@@ -3,7 +3,7 @@ package websockets
 import (
 	"encoding/json"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/ripple/rubblelabs/ripple/data"
+	"github.com/deltaswapio/swaprouter/v3/tokens/ripple/rubblelabs/ripple/data"
 )
 
 // Fields from subscribed ledger stream messages

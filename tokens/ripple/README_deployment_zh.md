@@ -1,5 +1,5 @@
 # router
-合约仓库： https://github.com/anyswap/CrossChain-Router/tree/feature/ripple
+合约仓库： https://github.com/deltaswapio/swaprouter/tree/feature/ripple
 
 # ripple
 > 特别注意：ripple没有合约的概念，不需要部署合约，采用记账的方式替代token部署
@@ -18,9 +18,9 @@ wss: wss://s1.ripple.com/
 chain_id: 1000005788240
 
 ## router部署文档 
-https://github.com/anyswap/CrossChain-Router/tree/feature/near#readme
+https://github.com/deltaswapio/swaprouter/tree/feature/near#readme
 ## mpc部署文档 
-https://github.com/anyswap/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
+https://github.com/deltaswapio/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
 
 ## 合约参考(已验证)
 > bsc_testnet  
@@ -34,7 +34,7 @@ https://testnet.xrpl.org/transactions/68FF1258F74709DAA6863C43C9827A13ECBD558D1D
 特别强调  
 >1)mpc公钥和ripple地址的关系  
 mpc申请ec公钥(65字节16进制编码字符串，非压缩公钥)后，公钥本身经过地址转换就是ripple的地址，触发一笔交易后即激活  
-另外，mpc获取的公钥，通过  https://github.com/anyswap/CrossChain-Router/blob/feature/ripple/tokens/ripple/tools/publicKeyToAddress/main.go  工具可获得ripple address  
+另外，mpc获取的公钥，通过  https://github.com/deltaswapio/swaprouter/blob/feature/ripple/tokens/ripple/tools/publicKeyToAddress/main.go  工具可获得ripple address  
 示例：  
 go run tokens/ripple/tools/publicKeyToAddress/main.go 04b4904f8a2ea01891678fec45c63fb1f221666e7d19cfeeb28f08a6d99cac91cbc12731f4c144aef501e34a6eaa0b5418ed5d138b192964bc5ccf4cde67246ca3  
 #output
@@ -139,7 +139,7 @@ address: rDsvn6aJG4YMQdHnuJtP9NLrFp18JYTJUf
 ## ripple调用方法
 >1)golang
 ```shell
-脚本路径： https://github.com/anyswap/CrossChain-Router/tree/feature/ripple/tokens/ripple/tools
+脚本路径： https://github.com/deltaswapio/swaprouter/tree/feature/ripple/tokens/ripple/tools
 
 1.1 payment Xrp/Token  
     go run ./tokens/ripple/tools/sendPaymentTx/main.go -config config.toml -chainID chainid -priKey ecPriKey -pubkey ecPublicKey -destination receiptAddr -amount 100000000  

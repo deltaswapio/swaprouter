@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/log"
 	iotago "github.com/iotaledger/iota.go/v2"
 )
 

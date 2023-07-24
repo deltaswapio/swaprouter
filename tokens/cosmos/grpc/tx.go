@@ -17,7 +17,7 @@ import (
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/cosmos/grpc/retry"
+	"github.com/deltaswapio/swaprouter/v3/tokens/cosmos/grpc/retry"
 )
 
 var (

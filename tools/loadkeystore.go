@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/tools/keystore"
+	"github.com/deltaswapio/swaprouter/v3/tools/keystore"
 )
 
 var errUnsafeFilePermissions = errors.New("unsafe file permissions, want 0400")

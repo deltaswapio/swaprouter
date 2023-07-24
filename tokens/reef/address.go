@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common"
 	"github.com/mr-tron/base58"
 	"golang.org/x/crypto/blake2b"
 )

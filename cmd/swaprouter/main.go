@@ -6,13 +6,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/cmd/utils"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/mongodb"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	rpcserver "github.com/anyswap/CrossChain-Router/v3/rpc/server"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/worker"
+	"github.com/deltaswapio/swaprouter/v3/cmd/utils"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/mongodb"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	rpcserver "github.com/deltaswapio/swaprouter/v3/rpc/server"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/worker"
 	"github.com/urfave/cli/v2"
 )
 
@@ -29,7 +29,7 @@ func initApp() {
 	// Initialize the CLI app and start action
 	app.Action = swaprouter
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2017-2020 The CrossChain-Router Authors"
+	app.Copyright = "Copyright 2017-2020 The Swaprouter Authors"
 	app.Commands = []*cli.Command{
 		adminCommand,
 		configCommand,

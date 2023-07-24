@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/anyswap/CrossChain-Router/v3/tokens/aptos"
+	"github.com/deltaswapio/swaprouter/v3/tokens/aptos"
 )
 
 func main() {

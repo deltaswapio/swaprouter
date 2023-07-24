@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	cmath "github.com/anyswap/CrossChain-Router/v3/common/math"
+	cmath "github.com/deltaswapio/swaprouter/v3/common/math"
 	"golang.org/x/crypto/sha3"
 )
 

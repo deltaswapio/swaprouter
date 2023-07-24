@@ -3,9 +3,9 @@ package solana
 import (
 	"math/big"
 
-	"github.com/anyswap/CrossChain-Router/v3/rpc/client"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
-	"github.com/anyswap/CrossChain-Router/v3/tokens/solana/types"
+	"github.com/deltaswapio/swaprouter/v3/rpc/client"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/tokens/solana/types"
 )
 
 var (

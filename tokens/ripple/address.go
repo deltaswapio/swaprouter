@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common"
 )
 
 var rAddressReg = regexp.MustCompile(`^r[1-9a-km-zA-HJ-NP-Z]{32,33}(?::[0-9]*)?$`)

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	cmath "github.com/anyswap/CrossChain-Router/v3/common/math"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/rpc/client"
+	cmath "github.com/deltaswapio/swaprouter/v3/common/math"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/rpc/client"
 )
 
 var (

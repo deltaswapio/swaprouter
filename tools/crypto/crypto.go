@@ -29,9 +29,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/common/math"
-	"github.com/anyswap/CrossChain-Router/v3/tools/rlp"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common/math"
+	"github.com/deltaswapio/swaprouter/v3/tools/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

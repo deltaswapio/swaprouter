@@ -11,7 +11,7 @@ Make sure the rpc endpoint could be connected
 ##  Setup Reef contract 
 ### a. run the lastest mpc node 
 - use mpc `support-sr25519` to generate a new mpc public key base on sr25519
-https://github.com/anyswap/FastMulThreshold-DSA/tree/support-sr25519
+https://github.com/deltaswapio/FastMulThreshold-DSA/tree/support-sr25519
 
 ```
 ./gsmpc-test-2-2.sh $(pwd) 5871 "" SR25519
@@ -25,7 +25,7 @@ go run tokens/reef/tools/getReefAddress/main.go -h
 - get some native token `REEF` to mpc address, airdrop for testnet 
 https://app.element.io/#/room/#reef:matrix.org
 
-- git clone `https://github.com/anyswap/Router-Demo-JS/tree/reef` and setup js env 
+- git clone `https://github.com/deltaswapio/Router-Demo-JS/tree/reef` and setup js env 
 ```
 npm install -g yarn
 yarn i
@@ -43,7 +43,7 @@ yarn i
 - use https://github.com/reef-defi/hardhat-reef to deploy
 - the mpc address is gotten above(mpc EVM address)
 
-## Setup CrossChain-Router 
+## Setup Swaprouter 
 ### a.setup reef config
 
 ```

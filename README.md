@@ -13,21 +13,21 @@ run the above command, it will generate `./build/bin/swaprouter` binary.
 
 deploy a `AnyswapRouter` contract for each supported blockchain
 
-eg. [AnyswapV6Router.sol](https://github.com/anyswap/anyswap-v1-core/blob/master/contracts/AnyswapV6Router.sol)
+eg. [AnyswapV6Router.sol](https://github.com/deltaswapio/anyswap-v1-core/blob/master/contracts/AnyswapV6Router.sol)
 
 ## 2. deploy `AnyswapERC20`
 
 deploy a `AnyswapERC20` contract for each token on each blockchain
 
-eg. [AnyswapV6ERC20.sol](https://github.com/anyswap/anyswap-v1-core/blob/master/contracts/AnyswapV6ERC20.sol)
+eg. [AnyswapV6ERC20.sol](https://github.com/deltaswapio/anyswap-v1-core/blob/master/contracts/AnyswapV6ERC20.sol)
 
-eg. [AnyswapV6ERC20-NonEVM.sol](https://github.com/anyswap/anyswap-v1-core/blob/master/contracts/AnyswapV6ERC20-NonEVM.sol)
+eg. [AnyswapV6ERC20-NonEVM.sol](https://github.com/deltaswapio/anyswap-v1-core/blob/master/contracts/AnyswapV6ERC20-NonEVM.sol)
 
 ## 3. deploy `RouterConfig`
 
 deploy a `RouterConfig` contract to store router bridge configs
 
-eg. [RouterConfigV2.sol](https://github.com/anyswap/router-config/blob/main/contracts/RouterConfigV2.sol)
+eg. [RouterConfigV2.sol](https://github.com/deltaswapio/router-config/blob/main/contracts/RouterConfigV2.sol)
 
 ## 4. set router config on chain
 
@@ -155,7 +155,7 @@ function setMPCPubkey(address addr, string pubkey);
 
 ## 5. add local config file
 
-please ref. [config-example.toml](https://github.com/anyswap/CrossChain-Router/blob/main/params/config-example.toml)
+please ref. [config-example.toml](https://github.com/deltaswapio/swaprouter/blob/main/params/config-example.toml)
 
 the following is the major config items:
 
@@ -176,7 +176,7 @@ the following is the major config items:
 **Notation**:
 
 the `MPC` is a security Multi-Party threshold Computation,
-for more info, please refer [FastMulThreshold-DSA](https://github.com/anyswap/FastMulThreshold-DSA)
+for more info, please refer [FastMulThreshold-DSA](https://github.com/deltaswapio/FastMulThreshold-DSA)
 
 Because the complexity of `MPC`, we can use private key to sign tx for easy testing.
 
@@ -193,7 +193,7 @@ SignWithPrivateKey = true
 97 = "2222222222222222222222222222222222222222222222222222222222222222"
 ```
 
-for more info, please ref. [config-sign-with-privatekey-example.toml](https://github.com/anyswap/CrossChain-Router/blob/main/params/config-sign-with-privatekey-example.toml)
+for more info, please ref. [config-sign-with-privatekey-example.toml](https://github.com/deltaswapio/swaprouter/blob/main/params/config-sign-with-privatekey-example.toml)
 
 ## 6. run swaprouter
 
@@ -221,4 +221,4 @@ sub commands:
 
 ## 8. RPC api
 
-please ref. [server rpc api](https://github.com/anyswap/CrossChain-Router/blob/main/rpc/README.md)
+please ref. [server rpc api](https://github.com/deltaswapio/swaprouter/blob/main/rpc/README.md)

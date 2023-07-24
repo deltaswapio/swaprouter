@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/BurntSushi/toml"
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
 )
 
 // router swap constants
@@ -572,6 +572,7 @@ func IsInCallByContractWhitelist(chainID, caller string) bool {
 }
 
 // AddOrRemoveCallByContractWhitelist add or remove call by contract whitelist
+//
 //nolint:dupl // allow duplicate
 func AddOrRemoveCallByContractWhitelist(chainID string, callers []string, isAdd bool) {
 	whitelist, exist := callByContractWhitelist[chainID]
@@ -700,6 +701,7 @@ func IsInBigValueWhitelist(tokenID, caller string) bool {
 }
 
 // AddOrRemoveBigValueWhitelist add or remove big value whitelist
+//
 //nolint:dupl // allow duplicate
 func AddOrRemoveBigValueWhitelist(tokenID string, callers []string, isAdd bool) {
 	whitelist, exist := bigValueWhitelist[tokenID]

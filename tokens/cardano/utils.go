@@ -4,7 +4,7 @@ import (
 	"crypto/ed25519"
 	"encoding/hex"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/log"
 )
 
 func StringToPrivateKey(priv string) (*ed25519.PrivateKey, error) {

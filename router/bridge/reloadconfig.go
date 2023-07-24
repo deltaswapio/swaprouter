@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/params"
-	"github.com/anyswap/CrossChain-Router/v3/router"
-	"github.com/anyswap/CrossChain-Router/v3/tokens"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/params"
+	"github.com/deltaswapio/swaprouter/v3/router"
+	"github.com/deltaswapio/swaprouter/v3/tokens"
 )
 
 var reloadRouterConfigLock sync.Mutex
@@ -65,6 +65,7 @@ func doReloadRouterConfigManually() {
 // ReloadRouterConfig reload router config
 // support add/remove/modify chain config
 // support add/remove/modify token config
+//
 //nolint:funlen,gocyclo // ok
 func ReloadRouterConfig() (success bool) {
 	log.Info("[reload] start reload router config")

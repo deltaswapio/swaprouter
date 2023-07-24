@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/anyswap/CrossChain-Router/v3/common/hexutil"
+	"github.com/deltaswapio/swaprouter/v3/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

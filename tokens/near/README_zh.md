@@ -1,8 +1,8 @@
 ## router
-合约仓库： https://github.com/anyswap/CrossChain-Router/tree/feature/near
+合约仓库： https://github.com/deltaswapio/swaprouter/tree/feature/near
 
 ## near
-合约仓库： https://github.com/anyswap/near-contract 
+合约仓库： https://github.com/deltaswapio/near-contract 
 
 常用api文档：https://docs.near.org/docs/api/overview
 
@@ -14,9 +14,9 @@ rpc: https://archival-rpc.mainnet.near.org
 chain_id: 1001313161554
 
 ## router部署文档 
-https://github.com/anyswap/CrossChain-Router/tree/feature/near#readme
+https://github.com/deltaswapio/swaprouter/tree/feature/near#readme
 ## mpc部署文档 
-https://github.com/anyswap/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
+https://github.com/deltaswapio/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
 
 > 交易参考(bsc->near)  
 
@@ -25,7 +25,7 @@ https://github.com/anyswap/FastMulThreshold-DSA/wiki/keygen-and-sign-workflow
 ```text
 >1) mpc公钥和near公钥的关系  
 mpc申请ed公钥(32字节16进制编码字符串)后，公钥本身就是一个near的account，也可以添加公钥到特定账户，转入一笔初始金额后，即激活  
-另外，mpc获取的公钥，通过  https://github.com/anyswap/CrossChain-Router/blob/feature/near/tokens/near/tools/publicKeyToAddress/main.go  工具可获得near publicKey  
+另外，mpc获取的公钥，通过  https://github.com/deltaswapio/swaprouter/blob/feature/near/tokens/near/tools/publicKeyToAddress/main.go  工具可获得near publicKey  
 示例：  
 go run tokens/near/tools/publicKeyToAddress/main.go f353e1fe460864caf4d720e40e57f14d35f437c3e0b93d1f40a37e89ebdda3bf
 INFO[2022-05-08T09:58:16.178] convert public key to address success        

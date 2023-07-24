@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/common"
 )
 
 // token version boundaries
@@ -145,6 +145,7 @@ func (c *TokenConfig) GetUnderlying() string {
 }
 
 // CheckConfig check swap config
+//
 //nolint:funlen,gocyclo // ok
 func (c *SwapConfig) CheckConfig() error {
 	if c.MaximumSwap == nil || c.MaximumSwap.Sign() <= 0 {

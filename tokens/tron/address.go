@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anyswap/CrossChain-Router/v3/common"
-	"github.com/anyswap/CrossChain-Router/v3/log"
-	"github.com/anyswap/CrossChain-Router/v3/tools/crypto"
+	"github.com/deltaswapio/swaprouter/v3/common"
+	"github.com/deltaswapio/swaprouter/v3/log"
+	"github.com/deltaswapio/swaprouter/v3/tools/crypto"
 
 	tronaddress "github.com/fbsobreira/gotron-sdk/pkg/address"
 )
